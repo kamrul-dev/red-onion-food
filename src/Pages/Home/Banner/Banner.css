@@ -1,0 +1,11 @@
+.banner-container{
+    background-image: url('../../../images/banner.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+.search-field input{
+    border: none;
+    border-radius: 50px;
+    padding-left: 20px;
+}
