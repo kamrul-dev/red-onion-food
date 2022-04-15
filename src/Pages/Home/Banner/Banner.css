@@ -1,6 +1,7 @@
 .banner-container{
     background-image: url('../../../images/banner.png');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 400px;
     width: 100%;
 }
