@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../Shared/Header/Header';
+import Menubar from '../../Shared/Menubar/Menubar';
 import Banner from '../Banner/Banner';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div className='container'>
             <Header></Header>
             <Banner></Banner>
+            <Menubar></Menubar>
         </div>
     );
 };

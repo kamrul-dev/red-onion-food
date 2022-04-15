@@ -1,0 +1,18 @@
+.menu-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.menu-container a {
+    text-decoration: none;
+    margin: 15px;
+    color: #4C4C4C;
+    font-weight: bold;
+}
+
+.menu-container a:hover {
+    color: #D32F4D;
+}
+.menu-list {}
