@@ -8,11 +8,26 @@
 .menu-container a {
     text-decoration: none;
     margin: 15px;
-    color: #4C4C4C;
+    /* color: #4C4C4C; */
     font-weight: bold;
 }
 
 .menu-container a:hover {
     color: #D32F4D;
 }
-.menu-list {}
+
+.link {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #4C4C4C;
+    transition: color ease-in-out 300ms;
+}
+
+.active-link {
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color ease-in-out 300ms;
+    color: #D32F4D;
+    border-bottom: 1px solid #D32F4D;
+    border-width: 2px;
+}

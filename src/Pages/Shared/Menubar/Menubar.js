@@ -7,9 +7,9 @@ const Menubar = () => {
         <div>
             <nav className='menu-container'>
                 <div className='menu-list'>
-                    <NavLink to='/breakfast'>Breakfast</NavLink>
-                    <NavLink to='/lunch'>Lunch</NavLink>
-                    <NavLink to='/dinner'>Dinner</NavLink>
+                    <NavLink to='/breakfast' className={({ isActive }) => (isActive ? "active-link" : "link")}>Breakfast</NavLink>
+                    <NavLink to='/lunch' className={({ isActive }) => (isActive ? "active-link" : "link")}>Lunch</NavLink>
+                    <NavLink to='/dinner' className={({ isActive }) => (isActive ? "active-link" : "link")}>Dinner</NavLink>
                 </div>
             </nav>
             <Outlet></Outlet>
