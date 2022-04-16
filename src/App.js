@@ -4,6 +4,7 @@ import Home from './Pages/Home/Home/Home';
 import Breakfast from './Pages/Home/Foods/Breakfast/Breakfast';
 import Lunch from './Pages/Home/Foods/Lunch/Lunch';
 import Dinner from './Pages/Home/Foods/Dinner/Dinner';
+import Footer from './Pages/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/dinner' element={<Dinner></Dinner>}></Route>
         </Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
